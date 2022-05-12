@@ -149,8 +149,10 @@
   <ItemGroup>
     <ClCompile Include="CHero.cpp" />
     <ClCompile Include="CInventaire.cpp" />
+    <ClCompile Include="CObjet.cpp" />
     <ClCompile Include="CPersonne.cpp" />
     <ClCompile Include="CPersoQuete.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Vector.cpp" />
@@ -158,9 +160,11 @@
   <ItemGroup>
     <ClInclude Include="CHero.h" />
     <ClInclude Include="CInventaire.h" />
+    <ClInclude Include="CObjet.h" />
     <ClInclude Include="CPersonne.h" />
     <ClInclude Include="CPersoQuete.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Vector.h" />

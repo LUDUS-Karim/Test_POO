@@ -1,6 +1,6 @@
 #include "Header.h"
 #include "CHero.h"
-
+#include "CObjet.h"
 
 using namespace std;
 
@@ -11,6 +11,7 @@ int main()
     hero1.setHitPoints(500);
     cout << hero1.getHitPoints() << endl;
 
+    CObjet& objects[10] = {0};
 
     system("pause");
 
